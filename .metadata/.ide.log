@@ -1895,3 +1895,392 @@
 2026-05-10 22:52:55,158 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 6056mS.
 2026-05-10 22:52:55,172 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 2mS.
 2026-05-10 22:52:55,181 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2026-05-10 22:59:19,648 [WARN] BspModel:444 - BSP dependency skipped because of component: name='DP83848', api='BSP_COMPONENT_DRIVER'
+2026-05-10 22:59:20,228 [INFO] I2cTimingTraitement:330 - 0x10707DBC
+2026-05-10 22:59:20,593 [WARN] BspModel:444 - BSP dependency skipped because of component: name='DP83848', api='BSP_COMPONENT_DRIVER'
+2026-05-10 22:59:32,423 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x171,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-05-10 23:00:51,492 [WARN] BspModel:444 - BSP dependency skipped because of component: name='DP83848', api='BSP_COMPONENT_DRIVER'
+2026-05-10 23:02:05,178 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 859604816 Bytes (1073741824)
+2026-05-10 23:02:06,417 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 908278248 Bytes (1073741824)
+2026-05-10 23:02:07,524 [INFO] ProjectBuilder:2395 - IP not ready for code generation: LWIP
+2026-05-10 23:02:10,070 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: IWDG
+2026-05-10 23:02:10,073 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: FREERTOS
+2026-05-10 23:02:10,073 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2S
+2026-05-10 23:02:10,073 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-05-10 23:02:10,073 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2026-05-10 23:02:10,074 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2026-05-10 23:02:10,075 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2026-05-10 23:02:10,075 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: FDCAN
+2026-05-10 23:02:10,075 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ETH
+2026-05-10 23:02:10,075 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: MEMORYMAP
+2026-05-10 23:02:10,075 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM6_7H7
+2026-05-10 23:02:10,075 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-05-10 23:02:10,076 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-05-10 23:02:10,076 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: LWIP
+2026-05-10 23:02:10,077 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DMA
+2026-05-10 23:02:10,077 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DEBUG
+2026-05-10 23:02:10,084 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-05-10 23:02:10,085 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SAI
+2026-05-10 23:02:10,086 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2026-05-10 23:02:10,121 [INFO] Argument:325 - Argument : hdmavalue: null
+2026-05-10 23:02:10,122 [INFO] Argument:327 - 	 sub Args: 
+2026-05-10 23:02:10,122 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream0
+2026-05-10 23:02:10,123 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream0
+2026-05-10 23:02:10,124 [INFO] Argument:325 - Argument : Initvalue: null
+2026-05-10 23:02:10,124 [INFO] Argument:327 - 	 sub Args: 
+2026-05-10 23:02:10,124 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_GENERATOR1
+2026-05-10 23:02:10,124 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_GENERATOR1
+2026-05-10 23:02:10,124 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2026-05-10 23:02:10,124 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2026-05-10 23:02:10,124 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2026-05-10 23:02:10,125 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2026-05-10 23:02:10,125 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2026-05-10 23:02:10,125 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2026-05-10 23:02:10,125 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2026-05-10 23:02:10,126 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2026-05-10 23:02:10,127 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2026-05-10 23:02:10,128 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2026-05-10 23:02:10,128 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2026-05-10 23:02:10,128 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2026-05-10 23:02:10,128 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2026-05-10 23:02:10,128 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2026-05-10 23:02:10,128 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2026-05-10 23:02:10,129 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2026-05-10 23:02:10,129 [INFO] Argument:325 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2026-05-10 23:02:10,130 [INFO] Argument:335 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2026-05-10 23:02:10,130 [INFO] Argument:325 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2026-05-10 23:02:10,131 [INFO] Argument:335 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2026-05-10 23:02:10,131 [INFO] Argument:325 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2026-05-10 23:02:10,131 [INFO] Argument:335 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2026-05-10 23:02:10,131 [INFO] Argument:325 - Argument : Lockvalue: null
+2026-05-10 23:02:10,131 [INFO] Argument:335 - Argument : Lockvalue: null
+2026-05-10 23:02:10,131 [INFO] Argument:325 - Argument : Statevalue: null
+2026-05-10 23:02:10,131 [INFO] Argument:335 - Argument : Statevalue: null
+2026-05-10 23:02:10,131 [INFO] Argument:325 - Argument : Parentvalue: null
+2026-05-10 23:02:10,132 [INFO] Argument:335 - Argument : Parentvalue: null
+2026-05-10 23:02:10,132 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2026-05-10 23:02:10,132 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2026-05-10 23:02:10,132 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2026-05-10 23:02:10,132 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2026-05-10 23:02:10,132 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2026-05-10 23:02:10,132 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2026-05-10 23:02:10,132 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2026-05-10 23:02:10,132 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2026-05-10 23:02:10,133 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2026-05-10 23:02:10,133 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2026-05-10 23:02:10,133 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2026-05-10 23:02:10,134 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2026-05-10 23:02:10,134 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2026-05-10 23:02:10,134 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2026-05-10 23:02:10,134 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2026-05-10 23:02:10,135 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2026-05-10 23:02:10,135 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2026-05-10 23:02:10,135 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2026-05-10 23:02:10,159 [WARN] IP:2250 - ClockDivider not found: check if there is a RefParameter without a condition.
+2026-05-10 23:02:10,160 [WARN] IP:2250 - ClockDividerCCU not found: check if there is a RefParameter without a condition.
+2026-05-10 23:02:10,161 [WARN] IP:2250 - MinOscClkPeriodsCCU not found: check if there is a RefParameter without a condition.
+2026-05-10 23:02:10,161 [WARN] IP:2250 - TimeQuantaPerBitTimeCCU not found: check if there is a RefParameter without a condition.
+2026-05-10 23:02:10,161 [WARN] IP:2250 - WatchdogStartValueCCU not found: check if there is a RefParameter without a condition.
+2026-05-10 23:02:10,191 [WARN] IP:2250 - LWIP_NETIF_HOSTNAME_NAME not found: check if there is a RefParameter without a condition.
+2026-05-10 23:02:10,629 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/license.tmp_save
+2026-05-10 23:02:11,161 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/license.tmp
+2026-05-10 23:02:11,338 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/gpio.tmp_save
+2026-05-10 23:02:11,668 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/gpio.tmp
+2026-05-10 23:02:11,945 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_vars.tmp_save
+2026-05-10 23:02:12,133 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_vars.tmp
+2026-05-10 23:02:12,139 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_inc.tmp_save
+2026-05-10 23:02:12,268 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_inc.tmp
+2026-05-10 23:02:12,276 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_HalInit.tmp_save
+2026-05-10 23:02:12,477 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_HalInit.tmp
+2026-05-10 23:02:12,483 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_Msp.tmp_save
+2026-05-10 23:02:12,711 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_Msp.tmp
+2026-05-10 23:02:12,828 [WARN] IPConfigManager:103 - WARNING: Missing Config File for DEBUG ip!!
+2026-05-10 23:02:14,330 [WARN] IPConfigManager:103 - WARNING: Missing Config File for MEMORYMAP ip!!
+2026-05-10 23:02:15,332 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2026-05-10 23:02:15,369 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_inc.tmp_save
+2026-05-10 23:02:15,716 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_inc.tmp
+2026-05-10 23:02:15,781 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelInit.tmp_save
+2026-05-10 23:02:16,030 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelInit.tmp
+2026-05-10 23:02:16,041 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelStart.tmp_save
+2026-05-10 23:02:16,149 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelStart.tmp
+2026-05-10 23:02:16,156 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_typedefs.tmp_save
+2026-05-10 23:02:16,239 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_typedefs.tmp
+2026-05-10 23:02:16,243 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_vars.tmp_save
+2026-05-10 23:02:16,319 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_vars.tmp
+2026-05-10 23:02:16,326 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_pfp.tmp_save
+2026-05-10 23:02:16,386 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_pfp.tmp
+2026-05-10 23:02:16,390 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_obj_creat.tmp_save
+2026-05-10 23:02:16,489 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_obj_creat.tmp
+2026-05-10 23:02:16,493 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_default_thread.tmp_save
+2026-05-10 23:02:16,569 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_default_thread.tmp
+2026-05-10 23:02:16,574 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_threads.tmp_save
+2026-05-10 23:02:16,644 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_threads.tmp
+2026-05-10 23:02:16,688 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2026-05-10 23:02:16,736 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2026-05-10 23:02:16,754 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_inc.tmp_save
+2026-05-10 23:02:16,821 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_inc.tmp
+2026-05-10 23:02:16,825 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelInit.tmp_save
+2026-05-10 23:02:16,902 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelInit.tmp
+2026-05-10 23:02:16,906 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelStart.tmp_save
+2026-05-10 23:02:16,972 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelStart.tmp
+2026-05-10 23:02:16,977 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_typedefs.tmp_save
+2026-05-10 23:02:17,039 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_typedefs.tmp
+2026-05-10 23:02:17,044 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_vars.tmp_save
+2026-05-10 23:02:17,121 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_vars.tmp
+2026-05-10 23:02:17,124 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_pfp.tmp_save
+2026-05-10 23:02:17,196 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_pfp.tmp
+2026-05-10 23:02:17,199 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_obj_creat.tmp_save
+2026-05-10 23:02:17,272 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_obj_creat.tmp
+2026-05-10 23:02:17,274 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_default_thread.tmp_save
+2026-05-10 23:02:17,337 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_default_thread.tmp
+2026-05-10 23:02:17,341 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_threads.tmp_save
+2026-05-10 23:02:17,407 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_threads.tmp
+2026-05-10 23:02:17,410 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/FreeRTOSConfig.h_save
+2026-05-10 23:02:17,508 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/FreeRTOSConfig.h
+2026-05-10 23:02:17,513 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/freertos.c_save
+2026-05-10 23:02:17,583 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/freertos.c
+2026-05-10 23:02:17,592 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/cortex.tmp_save
+2026-05-10 23:02:17,659 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/cortex.tmp
+2026-05-10 23:02:17,751 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/dma.tmp_save
+2026-05-10 23:02:17,834 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/dma.tmp
+2026-05-10 23:02:17,839 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/dma_GV.tmp_save
+2026-05-10 23:02:17,910 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/dma_GV.tmp
+2026-05-10 23:02:17,928 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2026-05-10 23:02:17,946 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/App/lwip.c_save
+2026-05-10 23:02:18,025 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/App/lwip.c
+2026-05-10 23:02:18,028 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/App/lwip.h_save
+2026-05-10 23:02:18,119 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/App/lwip.h
+2026-05-10 23:02:18,123 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/lwipopts.h_save
+2026-05-10 23:02:18,329 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/lwipopts.h
+2026-05-10 23:02:18,333 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/ethernetif.c_save
+2026-05-10 23:02:18,414 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/ethernetif.c
+2026-05-10 23:02:18,417 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/ethernetif.h_save
+2026-05-10 23:02:18,480 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/ethernetif.h
+2026-05-10 23:02:18,525 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_init.tmp_save
+2026-05-10 23:02:18,589 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_init.tmp
+2026-05-10 23:02:18,592 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_GV.tmp_save
+2026-05-10 23:02:18,648 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_GV.tmp
+2026-05-10 23:02:18,651 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_msp.tmp_save
+2026-05-10 23:02:18,745 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_msp.tmp
+2026-05-10 23:02:18,775 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/stm32h7xx_it.c_save
+2026-05-10 23:02:19,122 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/stm32h7xx_it.c
+2026-05-10 23:02:19,162 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/stm32h7xx_it.h_save
+2026-05-10 23:02:19,309 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/stm32h7xx_it.h
+2026-05-10 23:02:19,492 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_init.tmp_save
+2026-05-10 23:02:19,754 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_init.tmp
+2026-05-10 23:02:19,764 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_GV.tmp_save
+2026-05-10 23:02:19,835 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_GV.tmp
+2026-05-10 23:02:19,838 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_msp.tmp_save
+2026-05-10 23:02:19,950 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_msp.tmp
+2026-05-10 23:02:20,267 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/stm32h7xx_hal_msp.c_save
+2026-05-10 23:02:20,601 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/stm32h7xx_hal_msp.c
+2026-05-10 23:02:20,610 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/system.tmp_save
+2026-05-10 23:02:20,692 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/system.tmp
+2026-05-10 23:02:20,709 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/stm32h7xx_hal_conf.h_save
+2026-05-10 23:02:20,800 [INFO] CodeEngine:345 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/stm32h7xx_hal_conf.h
+2026-05-10 23:02:21,126 [INFO] ApiDbMcu:532 - Load IP Config File for I2C1
+2026-05-10 23:02:21,151 [INFO] ApiDbMcu:532 - Load IP Config File for RTC
+2026-05-10 23:02:21,156 [WARN] IPConfigManager:3811 - IP not found : TIM
+2026-05-10 23:02:21,157 [WARN] CodeGenerator:4259 - IP not found : null
+2026-05-10 23:02:21,170 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/main.h_save
+2026-05-10 23:02:21,281 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/main.h
+2026-05-10 23:02:21,284 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/main.c_save
+2026-05-10 23:02:21,469 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/main.c
+2026-05-10 23:02:22,501 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 534mS.
+2026-05-10 23:02:22,558 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2026-05-10 23:02:22,849 [INFO] ConfigFileManager:1595 - The Die is : DIE450
+2026-05-10 23:02:27,216 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 4644mS.
+2026-05-10 23:02:27,231 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 2mS.
+2026-05-10 23:02:27,242 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2026-05-10 23:05:36,535 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2026-05-10 23:07:47,047 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 924800952 Bytes (1073741824)
+2026-05-10 23:07:51,962 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 873711320 Bytes (1073741824)
+2026-05-10 23:07:53,255 [INFO] ProjectBuilder:2395 - IP not ready for code generation: LWIP
+2026-05-10 23:07:55,345 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: IWDG
+2026-05-10 23:07:55,346 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: FREERTOS
+2026-05-10 23:07:55,346 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2S
+2026-05-10 23:07:55,346 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-05-10 23:07:55,347 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2026-05-10 23:07:55,347 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2026-05-10 23:07:55,347 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2026-05-10 23:07:55,348 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: FDCAN
+2026-05-10 23:07:55,348 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ETH
+2026-05-10 23:07:55,348 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: MEMORYMAP
+2026-05-10 23:07:55,348 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM6_7H7
+2026-05-10 23:07:55,348 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-05-10 23:07:55,348 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-05-10 23:07:55,349 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: LWIP
+2026-05-10 23:07:55,349 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DMA
+2026-05-10 23:07:55,349 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DEBUG
+2026-05-10 23:07:55,353 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-05-10 23:07:55,358 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SAI
+2026-05-10 23:07:55,360 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2026-05-10 23:07:55,381 [INFO] Argument:325 - Argument : hdmavalue: null
+2026-05-10 23:07:55,382 [INFO] Argument:327 - 	 sub Args: 
+2026-05-10 23:07:55,382 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream0
+2026-05-10 23:07:55,382 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream0
+2026-05-10 23:07:55,382 [INFO] Argument:325 - Argument : Initvalue: null
+2026-05-10 23:07:55,382 [INFO] Argument:327 - 	 sub Args: 
+2026-05-10 23:07:55,383 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_GENERATOR1
+2026-05-10 23:07:55,383 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_GENERATOR1
+2026-05-10 23:07:55,383 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2026-05-10 23:07:55,383 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2026-05-10 23:07:55,383 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2026-05-10 23:07:55,383 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2026-05-10 23:07:55,383 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2026-05-10 23:07:55,384 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2026-05-10 23:07:55,385 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2026-05-10 23:07:55,385 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2026-05-10 23:07:55,385 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2026-05-10 23:07:55,385 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2026-05-10 23:07:55,385 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2026-05-10 23:07:55,385 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2026-05-10 23:07:55,386 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2026-05-10 23:07:55,386 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2026-05-10 23:07:55,386 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2026-05-10 23:07:55,386 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2026-05-10 23:07:55,387 [INFO] Argument:325 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2026-05-10 23:07:55,387 [INFO] Argument:335 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2026-05-10 23:07:55,387 [INFO] Argument:325 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2026-05-10 23:07:55,387 [INFO] Argument:335 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2026-05-10 23:07:55,387 [INFO] Argument:325 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2026-05-10 23:07:55,388 [INFO] Argument:335 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2026-05-10 23:07:55,388 [INFO] Argument:325 - Argument : Lockvalue: null
+2026-05-10 23:07:55,388 [INFO] Argument:335 - Argument : Lockvalue: null
+2026-05-10 23:07:55,388 [INFO] Argument:325 - Argument : Statevalue: null
+2026-05-10 23:07:55,389 [INFO] Argument:335 - Argument : Statevalue: null
+2026-05-10 23:07:55,389 [INFO] Argument:325 - Argument : Parentvalue: null
+2026-05-10 23:07:55,389 [INFO] Argument:335 - Argument : Parentvalue: null
+2026-05-10 23:07:55,389 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2026-05-10 23:07:55,389 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2026-05-10 23:07:55,389 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2026-05-10 23:07:55,390 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2026-05-10 23:07:55,390 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2026-05-10 23:07:55,390 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2026-05-10 23:07:55,390 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2026-05-10 23:07:55,390 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2026-05-10 23:07:55,390 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2026-05-10 23:07:55,390 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2026-05-10 23:07:55,390 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2026-05-10 23:07:55,390 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2026-05-10 23:07:55,391 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2026-05-10 23:07:55,391 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2026-05-10 23:07:55,391 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2026-05-10 23:07:55,391 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2026-05-10 23:07:55,391 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2026-05-10 23:07:55,391 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2026-05-10 23:07:55,421 [WARN] IP:2250 - ClockDivider not found: check if there is a RefParameter without a condition.
+2026-05-10 23:07:55,422 [WARN] IP:2250 - ClockDividerCCU not found: check if there is a RefParameter without a condition.
+2026-05-10 23:07:55,422 [WARN] IP:2250 - MinOscClkPeriodsCCU not found: check if there is a RefParameter without a condition.
+2026-05-10 23:07:55,422 [WARN] IP:2250 - TimeQuantaPerBitTimeCCU not found: check if there is a RefParameter without a condition.
+2026-05-10 23:07:55,422 [WARN] IP:2250 - WatchdogStartValueCCU not found: check if there is a RefParameter without a condition.
+2026-05-10 23:07:55,448 [WARN] IP:2250 - LWIP_NETIF_HOSTNAME_NAME not found: check if there is a RefParameter without a condition.
+2026-05-10 23:07:55,885 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/license.tmp_save
+2026-05-10 23:07:56,405 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/license.tmp
+2026-05-10 23:07:56,581 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/gpio.tmp_save
+2026-05-10 23:07:56,855 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/gpio.tmp
+2026-05-10 23:07:57,117 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_vars.tmp_save
+2026-05-10 23:07:57,282 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_vars.tmp
+2026-05-10 23:07:57,285 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_inc.tmp_save
+2026-05-10 23:07:57,412 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_inc.tmp
+2026-05-10 23:07:57,415 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_HalInit.tmp_save
+2026-05-10 23:07:57,599 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_HalInit.tmp
+2026-05-10 23:07:57,601 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_Msp.tmp_save
+2026-05-10 23:07:57,791 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/eth_Msp.tmp
+2026-05-10 23:07:58,039 [WARN] IPConfigManager:103 - WARNING: Missing Config File for DEBUG ip!!
+2026-05-10 23:07:59,200 [WARN] IPConfigManager:103 - WARNING: Missing Config File for MEMORYMAP ip!!
+2026-05-10 23:08:00,189 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2026-05-10 23:08:00,245 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_inc.tmp_save
+2026-05-10 23:08:00,515 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_inc.tmp
+2026-05-10 23:08:00,527 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelInit.tmp_save
+2026-05-10 23:08:00,681 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelInit.tmp
+2026-05-10 23:08:00,684 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelStart.tmp_save
+2026-05-10 23:08:00,766 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelStart.tmp
+2026-05-10 23:08:00,774 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_typedefs.tmp_save
+2026-05-10 23:08:00,846 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_typedefs.tmp
+2026-05-10 23:08:00,848 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_vars.tmp_save
+2026-05-10 23:08:00,919 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_vars.tmp
+2026-05-10 23:08:00,923 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_pfp.tmp_save
+2026-05-10 23:08:00,992 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_pfp.tmp
+2026-05-10 23:08:00,997 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_obj_creat.tmp_save
+2026-05-10 23:08:01,061 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_obj_creat.tmp
+2026-05-10 23:08:01,064 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_default_thread.tmp_save
+2026-05-10 23:08:01,126 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_default_thread.tmp
+2026-05-10 23:08:01,132 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_threads.tmp_save
+2026-05-10 23:08:01,197 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_threads.tmp
+2026-05-10 23:08:01,251 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2026-05-10 23:08:01,286 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2026-05-10 23:08:01,295 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_inc.tmp_save
+2026-05-10 23:08:01,358 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_inc.tmp
+2026-05-10 23:08:01,360 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelInit.tmp_save
+2026-05-10 23:08:01,431 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelInit.tmp
+2026-05-10 23:08:01,434 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelStart.tmp_save
+2026-05-10 23:08:01,509 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_kernelStart.tmp
+2026-05-10 23:08:01,513 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_typedefs.tmp_save
+2026-05-10 23:08:01,584 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_typedefs.tmp
+2026-05-10 23:08:01,588 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_vars.tmp_save
+2026-05-10 23:08:01,656 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_vars.tmp
+2026-05-10 23:08:01,665 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_pfp.tmp_save
+2026-05-10 23:08:01,736 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_pfp.tmp
+2026-05-10 23:08:01,743 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_obj_creat.tmp_save
+2026-05-10 23:08:01,817 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_obj_creat.tmp
+2026-05-10 23:08:01,820 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_default_thread.tmp_save
+2026-05-10 23:08:01,885 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_default_thread.tmp
+2026-05-10 23:08:01,888 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_threads.tmp_save
+2026-05-10 23:08:01,956 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/rtos_threads.tmp
+2026-05-10 23:08:01,961 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/FreeRTOSConfig.h_save
+2026-05-10 23:08:02,082 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/FreeRTOSConfig.h
+2026-05-10 23:08:02,086 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/freertos.c_save
+2026-05-10 23:08:02,174 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/freertos.c
+2026-05-10 23:08:02,185 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/cortex.tmp_save
+2026-05-10 23:08:02,247 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/cortex.tmp
+2026-05-10 23:08:02,349 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/dma.tmp_save
+2026-05-10 23:08:02,422 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/dma.tmp
+2026-05-10 23:08:02,426 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/dma_GV.tmp_save
+2026-05-10 23:08:02,489 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/dma_GV.tmp
+2026-05-10 23:08:02,514 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2026-05-10 23:08:02,528 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/App/lwip.c_save
+2026-05-10 23:08:02,603 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/App/lwip.c
+2026-05-10 23:08:02,606 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/App/lwip.h_save
+2026-05-10 23:08:02,700 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/App/lwip.h
+2026-05-10 23:08:02,703 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/lwipopts.h_save
+2026-05-10 23:08:02,939 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/lwipopts.h
+2026-05-10 23:08:02,999 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/ethernetif.c_save
+2026-05-10 23:08:03,213 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/ethernetif.c
+2026-05-10 23:08:03,221 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/ethernetif.h_save
+2026-05-10 23:08:03,295 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/LWIP/Target/ethernetif.h
+2026-05-10 23:08:03,485 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_init.tmp_save
+2026-05-10 23:08:03,702 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_init.tmp
+2026-05-10 23:08:03,719 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_GV.tmp_save
+2026-05-10 23:08:03,777 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_GV.tmp
+2026-05-10 23:08:03,780 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_msp.tmp_save
+2026-05-10 23:08:03,877 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_msp.tmp
+2026-05-10 23:08:03,918 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/stm32h7xx_it.c_save
+2026-05-10 23:08:04,107 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/stm32h7xx_it.c
+2026-05-10 23:08:04,111 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/stm32h7xx_it.h_save
+2026-05-10 23:08:04,172 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/stm32h7xx_it.h
+2026-05-10 23:08:04,178 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_init.tmp_save
+2026-05-10 23:08:04,240 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_init.tmp
+2026-05-10 23:08:04,242 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_GV.tmp_save
+2026-05-10 23:08:04,302 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_GV.tmp
+2026-05-10 23:08:04,305 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_msp.tmp_save
+2026-05-10 23:08:04,396 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/sai_msp.tmp
+2026-05-10 23:08:04,650 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/stm32h7xx_hal_msp.c_save
+2026-05-10 23:08:04,819 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/stm32h7xx_hal_msp.c
+2026-05-10 23:08:04,822 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/system.tmp_save
+2026-05-10 23:08:04,886 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/MXTmpFiles/system.tmp
+2026-05-10 23:08:04,898 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/stm32h7xx_hal_conf.h_save
+2026-05-10 23:08:04,968 [INFO] CodeEngine:345 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/stm32h7xx_hal_conf.h
+2026-05-10 23:08:05,143 [WARN] IPConfigManager:3811 - IP not found : TIM
+2026-05-10 23:08:05,144 [WARN] CodeGenerator:4259 - IP not found : null
+2026-05-10 23:08:05,151 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/main.h_save
+2026-05-10 23:08:05,259 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Inc/main.h
+2026-05-10 23:08:05,262 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/main.c_save
+2026-05-10 23:08:05,484 [INFO] CodeEngine:289 - Generated code: /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/HaleyEmbedded_RevA/Core/Src/main.c
+2026-05-10 23:08:06,450 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 445mS.
+2026-05-10 23:08:06,511 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2026-05-10 23:08:06,803 [INFO] ConfigFileManager:1595 - The Die is : DIE450
+2026-05-10 23:08:12,309 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 5782mS.
+2026-05-10 23:08:12,325 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2026-05-10 23:08:12,336 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2026-05-10 23:09:40,485 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]

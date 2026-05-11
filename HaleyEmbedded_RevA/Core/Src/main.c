@@ -45,9 +45,13 @@
 
 FDCAN_HandleTypeDef hfdcan1;
 
+I2C_HandleTypeDef hi2c1;
+
 I2S_HandleTypeDef hi2s1;
 
 IWDG_HandleTypeDef hiwdg1;
+
+RTC_HandleTypeDef hrtc;
 
 SAI_HandleTypeDef hsai_BlockA1;
 
@@ -154,6 +158,31 @@ osSemaphoreId_t ethernetRxSemHandle;
 const osSemaphoreAttr_t ethernetRxSem_attributes = {
   .name = "ethernetRxSem"
 };
+/* Definitions for SYSTEM_READY */
+osEventFlagsId_t SYSTEM_READYHandle;
+const osEventFlagsAttr_t SYSTEM_READY_attributes = {
+  .name = "SYSTEM_READY"
+};
+/* Definitions for NETWORK_CONNECTED */
+osEventFlagsId_t NETWORK_CONNECTEDHandle;
+const osEventFlagsAttr_t NETWORK_CONNECTED_attributes = {
+  .name = "NETWORK_CONNECTED"
+};
+/* Definitions for AIHOST_ONLINE */
+osEventFlagsId_t AIHOST_ONLINEHandle;
+const osEventFlagsAttr_t AIHOST_ONLINE_attributes = {
+  .name = "AIHOST_ONLINE"
+};
+/* Definitions for MIC_ACTIVE */
+osEventFlagsId_t MIC_ACTIVEHandle;
+const osEventFlagsAttr_t MIC_ACTIVE_attributes = {
+  .name = "MIC_ACTIVE"
+};
+/* Definitions for FAULT_STATE */
+osEventFlagsId_t FAULT_STATEHandle;
+const osEventFlagsAttr_t FAULT_STATE_attributes = {
+  .name = "FAULT_STATE"
+};
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -168,6 +197,8 @@ static void MX_FDCAN1_Init(void);
 static void MX_I2S1_Init(void);
 static void MX_IWDG1_Init(void);
 static void MX_TIM6_Init(void);
+static void MX_I2C1_Init(void);
+static void MX_RTC_Init(void);
 void StartDefaultTask(void *argument);
 void StartWatchdogTask(void *argument);
 void StartaudioInputTask(void *argument);
@@ -223,6 +254,8 @@ int main(void)
   MX_I2S1_Init();
   MX_IWDG1_Init();
   MX_TIM6_Init();
+  MX_I2C1_Init();
+  MX_RTC_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -300,6 +333,21 @@ int main(void)
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
+
+  /* creation of SYSTEM_READY */
+  SYSTEM_READYHandle = osEventFlagsNew(&SYSTEM_READY_attributes);
+
+  /* creation of NETWORK_CONNECTED */
+  NETWORK_CONNECTEDHandle = osEventFlagsNew(&NETWORK_CONNECTED_attributes);
+
+  /* creation of AIHOST_ONLINE */
+  AIHOST_ONLINEHandle = osEventFlagsNew(&AIHOST_ONLINE_attributes);
+
+  /* creation of MIC_ACTIVE */
+  MIC_ACTIVEHandle = osEventFlagsNew(&MIC_ACTIVE_attributes);
+
+  /* creation of FAULT_STATE */
+  FAULT_STATEHandle = osEventFlagsNew(&FAULT_STATE_attributes);
 
   /* USER CODE BEGIN RTOS_EVENTS */
   /* add events, ... */
@@ -437,6 +485,54 @@ static void MX_FDCAN1_Init(void)
 }
 
 /**
+  * @brief I2C1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_I2C1_Init(void)
+{
+
+  /* USER CODE BEGIN I2C1_Init 0 */
+
+  /* USER CODE END I2C1_Init 0 */
+
+  /* USER CODE BEGIN I2C1_Init 1 */
+
+  /* USER CODE END I2C1_Init 1 */
+  hi2c1.Instance = I2C1;
+  hi2c1.Init.Timing = 0x10707DBC;
+  hi2c1.Init.OwnAddress1 = 0;
+  hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+  hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+  hi2c1.Init.OwnAddress2 = 0;
+  hi2c1.Init.OwnAddress2Masks = I2C_OA2_NOMASK;
+  hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+  hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+  if (HAL_I2C_Init(&hi2c1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure Analogue filter
+  */
+  if (HAL_I2CEx_ConfigAnalogFilter(&hi2c1, I2C_ANALOGFILTER_ENABLE) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure Digital filter
+  */
+  if (HAL_I2CEx_ConfigDigitalFilter(&hi2c1, 0) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN I2C1_Init 2 */
+
+  /* USER CODE END I2C1_Init 2 */
+
+}
+
+/**
   * @brief I2S1 Initialization Function
   * @param None
   * @retval None
@@ -498,6 +594,42 @@ static void MX_IWDG1_Init(void)
   /* USER CODE BEGIN IWDG1_Init 2 */
 
   /* USER CODE END IWDG1_Init 2 */
+
+}
+
+/**
+  * @brief RTC Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_RTC_Init(void)
+{
+
+  /* USER CODE BEGIN RTC_Init 0 */
+
+  /* USER CODE END RTC_Init 0 */
+
+  /* USER CODE BEGIN RTC_Init 1 */
+
+  /* USER CODE END RTC_Init 1 */
+
+  /** Initialize RTC Only
+  */
+  hrtc.Instance = RTC;
+  hrtc.Init.HourFormat = RTC_HOURFORMAT_24;
+  hrtc.Init.AsynchPrediv = 127;
+  hrtc.Init.SynchPrediv = 255;
+  hrtc.Init.OutPut = RTC_OUTPUT_DISABLE;
+  hrtc.Init.OutPutPolarity = RTC_OUTPUT_POLARITY_HIGH;
+  hrtc.Init.OutPutType = RTC_OUTPUT_TYPE_OPENDRAIN;
+  hrtc.Init.OutPutRemap = RTC_OUTPUT_REMAP_NONE;
+  if (HAL_RTC_Init(&hrtc) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN RTC_Init 2 */
+
+  /* USER CODE END RTC_Init 2 */
 
 }
 
