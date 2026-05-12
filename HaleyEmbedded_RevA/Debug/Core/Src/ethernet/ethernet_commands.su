@@ -1,0 +1,8 @@
+../Core/Src/ethernet/ethernet_commands.c:31:20:queue_post	16	static
+../Core/Src/ethernet/ethernet_commands.c:43:24:be16	16	static
+../Core/Src/ethernet/ethernet_commands.c:63:6:ETH_CMD_HandleHeartbeat	24	static
+../Core/Src/ethernet/ethernet_commands.c:82:6:ETH_CMD_HandleLED	32	static
+../Core/Src/ethernet/ethernet_commands.c:122:6:ETH_CMD_HandleAudioControl	32	static
+../Core/Src/ethernet/ethernet_commands.c:158:6:ETH_CMD_HandleStateChange	24	static
+../Core/Src/ethernet/ethernet_commands.c:180:6:ETH_CMD_Dispatch	56	static
+../Core/Src/ethernet/ethernet_commands.c:278:6:ETH_CMD_Init	16	static

@@ -1,0 +1,9 @@
+../Core/Src/ethernet/ethernet_packets.c:19:20:write_be16	1
+../Core/Src/ethernet/ethernet_packets.c:26:20:write_be32	1
+../Core/Src/ethernet/ethernet_packets.c:35:24:read_be16	1
+../Core/Src/ethernet/ethernet_packets.c:41:24:read_be32	1
+../Core/Src/ethernet/ethernet_packets.c:53:8:ETH_PKT_Build	8
+../Core/Src/ethernet/ethernet_packets.c:115:13:ETH_PKT_ParseHeader	8
+../Core/Src/ethernet/ethernet_packets.c:157:13:ETH_PKT_ValidatePayloadCRC	6
+../Core/Src/ethernet/ethernet_packets.c:187:8:ETH_PKT_BuildControl	1
+../Core/Src/ethernet/ethernet_packets.c:197:8:ETH_PKT_BuildNACK	1

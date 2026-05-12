@@ -1,0 +1,16 @@
+../Core/Src/ethernet/ethernet_protocol.c:73:24:next_tx_seq	4	static
+../Core/Src/ethernet/ethernet_protocol.c:83:13:reset_rx_state	8	static
+../Core/Src/ethernet/ethernet_protocol.c:96:13:dispatch_packet	16	static
+../Core/Src/ethernet/ethernet_protocol.c:112:13:process_byte	1064	static
+../Core/Src/ethernet/ethernet_protocol.c:242:20:ETH_PROTO_Init	16	static
+../Core/Src/ethernet/ethernet_protocol.c:259:20:ETH_PROTO_ProcessReceive	24	static
+../Core/Src/ethernet/ethernet_protocol.c:286:20:ETH_PROTO_SendHeartbeat	72	static
+../Core/Src/ethernet/ethernet_protocol.c:314:20:ETH_PROTO_SendACK	56	static
+../Core/Src/ethernet/ethernet_protocol.c:336:20:ETH_PROTO_SendNACK	48	static
+../Core/Src/ethernet/ethernet_protocol.c:355:20:ETH_PROTO_SendTelemetrySensor	72	static
+../Core/Src/ethernet/ethernet_protocol.c:393:20:ETH_PROTO_SendSystemStatus	64	static
+../Core/Src/ethernet/ethernet_protocol.c:426:20:ETH_PROTO_SendAudioData	1072	static
+../Core/Src/ethernet/ethernet_protocol.c:449:20:ETH_PROTO_SendFaultNotification	64	static
+../Core/Src/ethernet/ethernet_protocol.c:475:10:ETH_PROTO_GetTxSeq	4	static
+../Core/Src/ethernet/ethernet_protocol.c:476:10:ETH_PROTO_GetRxPacketCount	4	static
+../Core/Src/ethernet/ethernet_protocol.c:477:10:ETH_PROTO_GetCRCErrorCount	4	static

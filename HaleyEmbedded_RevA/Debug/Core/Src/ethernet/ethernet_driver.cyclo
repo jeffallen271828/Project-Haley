@@ -1,0 +1,10 @@
+../Core/Src/ethernet/ethernet_driver.c:63:13:close_client	4
+../Core/Src/ethernet/ethernet_driver.c:83:18:ETH_DRV_Init	7
+../Core/Src/ethernet/ethernet_driver.c:138:18:ETH_DRV_WaitForConnection	7
+../Core/Src/ethernet/ethernet_driver.c:183:18:ETH_DRV_Receive	14
+../Core/Src/ethernet/ethernet_driver.c:245:18:ETH_DRV_Send	6
+../Core/Src/ethernet/ethernet_driver.c:276:18:ETH_DRV_SendPacket	1
+../Core/Src/ethernet/ethernet_driver.c:283:6:ETH_DRV_CloseConnection	1
+../Core/Src/ethernet/ethernet_driver.c:290:6:ETH_DRV_DeInit	3
+../Core/Src/ethernet/ethernet_driver.c:312:17:ETH_DRV_GetState	1
+../Core/Src/ethernet/ethernet_driver.c:319:5:ETH_DRV_IsConnected	1

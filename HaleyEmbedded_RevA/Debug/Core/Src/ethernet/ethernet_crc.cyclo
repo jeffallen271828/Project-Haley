@@ -1,0 +1,5 @@
+../Core/Src/ethernet/ethernet_crc.c:114:13:ETH_CRC_BuildTable	4
+../Core/Src/ethernet/ethernet_crc.c:134:10:ETH_CRC_Update	3
+../Core/Src/ethernet/ethernet_crc.c:150:10:ETH_CRC_Finalize	1
+../Core/Src/ethernet/ethernet_crc.c:157:10:ETH_CRC_Compute	3
+../Core/Src/ethernet/ethernet_crc.c:173:5:ETH_CRC_Verify	1
