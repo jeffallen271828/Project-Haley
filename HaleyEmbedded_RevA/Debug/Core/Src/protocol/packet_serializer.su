@@ -1,0 +1,11 @@
+../Core/Src/protocol/packet_serializer.c:11:26:dispatch_packet	24	static
+../Core/Src/protocol/packet_serializer.c:36:19:SRL_Init	24	static
+../Core/Src/protocol/packet_serializer.c:49:6:SRL_ResetSequence	16	static
+../Core/Src/protocol/packet_serializer.c:55:19:SRL_SendHeartbeat	24	static
+../Core/Src/protocol/packet_serializer.c:63:19:SRL_SendACK	24	static
+../Core/Src/protocol/packet_serializer.c:70:19:SRL_SendCommand	40	static
+../Core/Src/protocol/packet_serializer.c:80:19:SRL_SendTelemetry	32	static
+../Core/Src/protocol/packet_serializer.c:89:19:SRL_SendFault	32	static
+../Core/Src/protocol/packet_serializer.c:98:19:SRL_SendState	32	static
+../Core/Src/protocol/packet_serializer.c:107:19:SRL_SendVersionNegotiation	24	static
+../Core/Src/protocol/packet_serializer.c:114:19:SRL_SendRaw	48	static

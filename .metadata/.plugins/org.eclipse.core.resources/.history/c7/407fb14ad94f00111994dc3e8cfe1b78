@@ -1,0 +1,94 @@
+/**
+ * @file ai_host_interface.c
+ * @brief Implementation of the AI Host service layer.
+ */
+
+#include "ai_host_interface.h"
+#include "stm32h7xx_hal.h" // Required for HAL_GetTick()
+#include <stddef.h>
+
+/* Configuration constants derived from stm32_config.py */
+#define AI_HOST_HEARTBEAT_INTERVAL_MS 2000
+#define AI_HOST_HEARTBEAT_TIMEOUT_MS  6000
+
+/* Singleton instance pointer to avoid exposed global variables */
+static ai_host_handle_t *s_host_instance = NULL;
+
+haley_proto_err_t AI_Host_Init(ai_host_handle_t *handle, ai_host_event_cb_t event_cb) {
+    if (handle == NULL) {
+        return HALEY_PROTO_ERR_NULL; // Assumes standard error enum defined in protocol_types.h
+    }
+
+    s_host_instance = handle;
+
+    // Initialize state
+    s_host_instance->state.conn_state = AI_HOST_DISCONNECTED;
+    s_host_instance->state.health = AI_HOST_HEALTH_UNKNOWN;
+    s_host_instance->state.last_heartbeat_rx_ms = 0;
+    s_host_instance->state.last_packet_rx_ms = 0;
+
+    // Clear statistics
+    s_host_instance->state.stats.rx_count = 0;
+    s_host_instance->state.stats.tx_count = 0;
+    s_host_instance->state.stats.crc_errors = 0;
+    s_host_instance->state.stats.parse_errors = 0;
+
+    // Set callbacks
+    s_host_instance->event_callback = event_cb;
+    s_host_instance->event_ctx = NULL;
+
+    /* * Initialization for the binary packet protocol parsers and serializers
+     * would be called here based on haley_parser_t and haley_serializer_t APIs.
+     */
+
+    return HALEY_PROTO_OK;
+}
+
+void AI_Host_Process(void) {
+    if (s_host_instance == NULL) {
+        return;
+    }
+
+    uint32_t current_time = HAL_GetTick();
+
+    // Watchdog logic: Check for connection timeouts based on stm32_config.py
+    if (s_host_instance->state.conn_state == AI_HOST_CONNECTED) {
+        if ((current_time - s_host_instance->state.last_heartbeat_rx_ms) > AI_HOST_HEARTBEAT_TIMEOUT_MS) {
+
+            s_host_instance->state.conn_state = AI_HOST_FAULT;
+            s_host_instance->state.health = AI_HOST_HEALTH_BAD;
+
+            // Dispatch disconnection event
+            if (s_host_instance->event_callback) {
+                ai_host_event_t event = {
+                    .type = AI_EVENT_DISCONNECTED,
+                    .timestamp_ms = current_time,
+                    .event_data = NULL
+                };
+                s_host_instance->event_callback(&event, s_host_instance->event_ctx);
+            }
+        }
+    }
+}
+
+void AI_Host_DataReceived(const uint8_t *data, uint32_t len) {
+    if (s_host_instance == NULL || data == NULL || len == 0) {
+        return;
+    }
+
+    s_host_instance->state.last_packet_rx_ms = HAL_GetTick();
+    s_host_instance->state.stats.rx_count++;
+
+    /* * Feed data to the packet parser.
+     * A valid packet callback from the parser should update last_heartbeat_rx_ms
+     * and handle payload routing.
+     */
+     // Haley_Parser_Feed(&s_host_instance->parser, data, len);
+}
+
+const ai_host_state_t* AI_Host_GetState(void) {
+    if (s_host_instance == NULL) {
+        return NULL;
+    }
+    return &s_host_instance->state;
+}

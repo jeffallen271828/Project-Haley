@@ -1,0 +1,61 @@
+/**
+ * @file ai_host_commands.c
+ * @brief Implementation of AI Host commands.
+ */
+
+#include "ai_host_commands.h"
+#include "ai_host_interface.h"
+
+/* * Higher-level modules may include lower-level modules.
+ * This module requires the Ethernet protocol layer to dispatch packets.
+ */
+// #include "ethernet/ethernet_protocol.h"
+#include <stddef.h>
+
+haley_proto_err_t AI_CMD_ReportTelemetry(void) {
+    // 1. Fetch system state or environmental data (e.g., from system_state.h)
+    // 2. Serialize the data into a binary packet using the serializer
+    // 3. Dispatch the payload via the Ethernet transport
+
+    // Example logical flow:
+    // uint8_t buffer[MAX_PACKET_BYTES]; // 4096 based on stm32_config.py
+    // uint32_t len = Haley_Serializer_BuildTelemetry(&s_host_instance->serializer, buffer, ...);
+    // return ETH_SendPacket(buffer, len);
+
+    return HALEY_PROTO_OK;
+}
+
+haley_proto_err_t AI_CMD_SendAudioFrame(const int16_t *samples, uint32_t count) {
+    if (samples == NULL || count == 0) {
+        return HALEY_PROTO_ERR_NULL; // Assumed macro for invalid argument
+    }
+
+    /* * Audio buffer handling should be kept isolated.
+     * This function only handles the packetization and transport of the PCM frame
+     * directly over the binary packet protocol, adhering to the 512-sample frame
+     * defined in the host configuration.
+     */
+
+    // Example logical flow:
+    // uint8_t buffer[MAX_PACKET_BYTES];
+    // uint32_t len = Haley_Serializer_BuildAudioFrame(&s_host_instance->serializer, buffer, samples, count);
+    // return ETH_SendPacket(buffer, len);
+
+    return HALEY_PROTO_OK;
+}
+
+haley_proto_err_t AI_CMD_ReportHardwareFault(uint32_t fault_code) {
+    /* * Serializes a fault notification and sends it to the AI host
+     * for potential verbal feedback or system-level logging.
+     */
+
+    return HALEY_PROTO_OK;
+}
+
+haley_proto_err_t AI_CMD_RequestSpeechStop(void) {
+    /* * Formats an interrupt command to force the host-side XTTS engine
+     * to halt current playback.
+     */
+
+    return HALEY_PROTO_OK;
+}

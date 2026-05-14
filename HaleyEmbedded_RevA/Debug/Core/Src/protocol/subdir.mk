@@ -7,23 +7,17 @@
 C_SRCS += \
 ../Core/Src/protocol/packet_parser.c \
 ../Core/Src/protocol/packet_protocol.c \
-../Core/Src/protocol/packet_serializer.c \
-../Core/Src/protocol/protocol_constants.c \
-../Core/Src/protocol/protocol_types.c 
+../Core/Src/protocol/packet_serializer.c 
 
 OBJS += \
 ./Core/Src/protocol/packet_parser.o \
 ./Core/Src/protocol/packet_protocol.o \
-./Core/Src/protocol/packet_serializer.o \
-./Core/Src/protocol/protocol_constants.o \
-./Core/Src/protocol/protocol_types.o 
+./Core/Src/protocol/packet_serializer.o 
 
 C_DEPS += \
 ./Core/Src/protocol/packet_parser.d \
 ./Core/Src/protocol/packet_protocol.d \
-./Core/Src/protocol/packet_serializer.d \
-./Core/Src/protocol/protocol_constants.d \
-./Core/Src/protocol/protocol_types.d 
+./Core/Src/protocol/packet_serializer.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -33,7 +27,7 @@ Core/Src/protocol/%.o Core/Src/protocol/%.su Core/Src/protocol/%.cyclo: ../Core/
 clean: clean-Core-2f-Src-2f-protocol
 
 clean-Core-2f-Src-2f-protocol:
-	-$(RM) ./Core/Src/protocol/packet_parser.cyclo ./Core/Src/protocol/packet_parser.d ./Core/Src/protocol/packet_parser.o ./Core/Src/protocol/packet_parser.su ./Core/Src/protocol/packet_protocol.cyclo ./Core/Src/protocol/packet_protocol.d ./Core/Src/protocol/packet_protocol.o ./Core/Src/protocol/packet_protocol.su ./Core/Src/protocol/packet_serializer.cyclo ./Core/Src/protocol/packet_serializer.d ./Core/Src/protocol/packet_serializer.o ./Core/Src/protocol/packet_serializer.su ./Core/Src/protocol/protocol_constants.cyclo ./Core/Src/protocol/protocol_constants.d ./Core/Src/protocol/protocol_constants.o ./Core/Src/protocol/protocol_constants.su ./Core/Src/protocol/protocol_types.cyclo ./Core/Src/protocol/protocol_types.d ./Core/Src/protocol/protocol_types.o ./Core/Src/protocol/protocol_types.su
+	-$(RM) ./Core/Src/protocol/packet_parser.cyclo ./Core/Src/protocol/packet_parser.d ./Core/Src/protocol/packet_parser.o ./Core/Src/protocol/packet_parser.su ./Core/Src/protocol/packet_protocol.cyclo ./Core/Src/protocol/packet_protocol.d ./Core/Src/protocol/packet_protocol.o ./Core/Src/protocol/packet_protocol.su ./Core/Src/protocol/packet_serializer.cyclo ./Core/Src/protocol/packet_serializer.d ./Core/Src/protocol/packet_serializer.o ./Core/Src/protocol/packet_serializer.su
 
 .PHONY: clean-Core-2f-Src-2f-protocol
 

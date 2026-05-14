@@ -2,7 +2,8 @@
  * @file ai_host_state.h
  * @brief Logic-level connection and health states for the AI Host interface.
  *
- * Mirrors ConnectionState and LinkHealth from stm32_state.py.
+ * This file mirrors the state tracking found in stm32_state.py, providing
+ * the STM32 with a way to track the quality of the link to the Linux AI Host.
  */
 
 #ifndef INC_AI_HOST_AI_HOST_STATE_H_
@@ -16,7 +17,7 @@
  */
 typedef enum {
     AI_HOST_DISCONNECTED = 0, /**< No physical link or no heartbeats detected */
-    AI_HOST_CONNECTING,       /**< Physical link established, waiting for handshake */
+    AI_HOST_CONNECTING,       /**< TCP/IP link established, waiting for handshake */
     AI_HOST_CONNECTED,        /**< Handshake complete, heartbeats flowing */
     AI_HOST_FAULT             /**< Protocol mismatch or watchdog timeout */
 } ai_host_conn_state_t;
@@ -27,8 +28,8 @@ typedef enum {
 typedef enum {
     AI_HOST_HEALTH_UNKNOWN = 0,
     AI_HOST_HEALTH_GOOD,
-    AI_HOST_HEALTH_DEGRADED,  /**< CRC errors detected or high latency */
-    AI_HOST_HEALTH_BAD        /**< Critical packet loss */
+    AI_HOST_HEALTH_DEGRADED, /**< Occasional CRC errors or high latency */
+    AI_HOST_HEALTH_BAD       /**< Critical packet loss */
 } ai_host_health_t;
 
 /**
@@ -41,6 +42,7 @@ typedef struct {
     uint32_t last_heartbeat_rx_ms;
     uint32_t last_packet_rx_ms;
 
+    /* Metrics mirroring PacketStats in stm32_state.py */
     struct {
         uint32_t rx_count;
         uint32_t tx_count;

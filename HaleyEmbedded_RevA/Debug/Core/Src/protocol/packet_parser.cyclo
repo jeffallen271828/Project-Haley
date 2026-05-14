@@ -1,0 +1,8 @@
+../Core/Src/protocol/packet_parser.c:11:19:PARSER_Init	3
+../Core/Src/protocol/packet_parser.c:24:6:PARSER_Reset	2
+../Core/Src/protocol/packet_parser.c:33:6:PARSER_FeedByte	23
+../Core/Src/protocol/packet_parser.c:116:6:PARSER_Feed	2
+../Core/Src/protocol/packet_parser.c:122:22:PARSER_GetState	2
+../Core/Src/protocol/packet_parser.c:126:10:PARSER_GetPacketCount	2
+../Core/Src/protocol/packet_parser.c:130:10:PARSER_GetCRCErrorCount	2
+../Core/Src/protocol/packet_parser.c:134:10:PARSER_GetFramingErrorCount	2

@@ -37,8 +37,6 @@
 "./Core/Src/protocol/packet_parser.o"
 "./Core/Src/protocol/packet_protocol.o"
 "./Core/Src/protocol/packet_serializer.o"
-"./Core/Src/protocol/protocol_constants.o"
-"./Core/Src/protocol/protocol_types.o"
 "./Core/Src/tasks/task_audio.o"
 "./Core/Src/tasks/task_command.o"
 "./Core/Src/tasks/task_diagnostics.o"

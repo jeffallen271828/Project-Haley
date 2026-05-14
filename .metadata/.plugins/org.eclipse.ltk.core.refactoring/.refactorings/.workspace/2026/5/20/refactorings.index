@@ -1,2 +1,4 @@
 1778791600204	Delete resource 'HaleyEmbedded_RevA/Core/Src/protocol/protocol_constants.c'
 1778791607791	Delete resource 'HaleyEmbedded_RevA/Core/Src/protocol/protocol_types.c'
+1778792777123	Delete resource 'HaleyEmbedded_RevA/Core/Src/ai_host/ai_host_events.c'
+1778792786506	Delete resource 'HaleyEmbedded_RevA/Core/Src/ai_host/ai_host_state.c'
