@@ -1,0 +1,25 @@
+# AI Models - Do NOT commit these
+services/models/llm/**/*.gguf
+services/models/whisper/*.bin
+services/models/tts/XTTS/*.pth
+services/models/embedding/**/*
+
+# Virtualenv
+venv/
+*.tar.gz
+
+# Build / temp
+__pycache__/
+*.pyc
+# Models - never commit these
+HaleyLinux_RevA/services/models/llm/**/*.gguf
+HaleyLinux_RevA/services/models/whisper/*
+HaleyLinux_RevA/services/models/tts/XTTS/*
+HaleyLinux_RevA/services/models/embedding/**/*
+
+venv/
+__pycache__/
+*.pyc
+*.gguf
+models/ # adjust as needed
+build/
