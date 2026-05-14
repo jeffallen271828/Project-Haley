@@ -20,3 +20,16 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/jeffr
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-05-10 21:46:56.676
 !MESSAGE Indexed 'HaleyEmbedded_RevA' (24 sources, 85 headers) in 9.91 sec: 7,771 declarations; 56,354 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0031%)
+!SESSION 2026-05-14 14:07:09.860 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jeffreya181/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/jeffreya181/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-05-14 14:07:50.850
+!MESSAGE Log4j2 initialized with config file /Users/jeffreya181/Desktop/Projects/Haley/Project-Haley/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-05-14 14:08:05.102
+!MESSAGE Started RMI Server, listening on port 41337
